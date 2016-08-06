@@ -5,7 +5,9 @@
 
 require "./sort"
 
-a = [10, 9, 0, 4, 3, 1, 11]
-Sort.selection!(a)
+numbers = Array.new(200) { rand(1..1000) } 
 
-puts a
+Sort.insertion!(numbers)
+#Sort.selection!(numbers)
+
+puts numbers
