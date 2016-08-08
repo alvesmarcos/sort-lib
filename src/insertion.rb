@@ -8,7 +8,6 @@ module InsertionSort
 	# return a copy of the sorted
 	def insertion(list)
 		copy = []
-
 		(list).each do |v|
 			copy << v
 		end

@@ -8,7 +8,6 @@ module SelectionSort
 	# return a copy of the sorted
 	def selection(list)
 		copy = []
-
 		(list).each do |v|
 			copy << v
 		end
