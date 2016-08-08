@@ -7,9 +7,9 @@ require "./sort"
 
 numbers = Array.new(10) { rand(1..1000) } 
 
-#Sort.insertion!(numbers)
+Sort.insertion!(numbers)
 #Sort.heap!(numbers)
-Sort.merge!(numbers)
+#Sort.merge!(numbers)
 #Sort.selection!(numbers)
 #Sort.quick!(numbers)
 
