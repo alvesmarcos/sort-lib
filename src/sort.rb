@@ -3,11 +3,11 @@
 # Author: Marcos Alves
 #++
 
-require './insertion'
-require './merge'
-require './selection'
-require './quick'
-require './heap'
+require '../src/insertion'
+require '../src/merge'
+require '../src/selection'
+require '../src/quick'
+require '../src/heap'
 
 module Sort	
 	extend InsertionSort

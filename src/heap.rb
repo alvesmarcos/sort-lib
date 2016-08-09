@@ -24,8 +24,8 @@ module HeapSort
 	# DIRECT access the list
 	# return void
 	def heap!(list)
-		#heapify
 		len = list.length-1
+		#heapify
 		((len)/2).downto(0) { |b| heapify(list, b, list.length-1) }
 
 		(len).downto(1) do |e|
