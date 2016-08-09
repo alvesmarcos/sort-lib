@@ -3,8 +3,6 @@
 # Author: Marcos Alves
 #++
 
-# MODULE SORT
-
 require './insertion'
 require './merge'
 require './selection'
@@ -17,4 +15,8 @@ module Sort
 	extend SelectionSort
 	extend QuickSort
 	extend HeapSort
+
+	def self.sorted?(list)
+		list == list.sort
+	end
 end
